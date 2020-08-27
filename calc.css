@@ -1,0 +1,77 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(back.jpg);
+    background-size: cover;
+    
+    }
+
+.corpo{
+    position: relative;
+    width: 300px;
+    height: auto;
+    margin: auto;
+    margin-top: 2rem;
+    border: 6px solid black;
+    border-radius: 6%;
+    background-image:linear-gradient(to right,rgb(145, 41, 122),rgb(245, 91, 91));   
+}
+
+#screen #display{
+    color: rgb(253, 0, 0);
+    font-size:20px;
+    margin-left: 10px;
+}
+#screen #result{
+    color: white;
+    font-size:34px;
+    float: right;
+    margin-right: 10px;
+}
+
+#screen{
+    position: absolute;
+    background-image:linear-gradient(rgb(46, 42, 42),rgb(107, 25, 89));
+    width: 100.3%;
+    height: 150px;
+    margin-top: 20px;   
+}
+.keyboard{
+    height: auto;
+    margin-top: 190px; 
+}
+
+.all{
+    color: white;
+    background-image:linear-gradient(to right,rgb(145, 41, 122),rgb(245, 91, 91));
+    font-size: 33px;
+    margin: 20px;
+    border-width: 0;
+}
+
+.operator{
+    width:30px;
+    background-image:linear-gradient(to right,rgb(126, 99, 120),rgb(196, 23, 219));
+    color: white;
+    border: none;
+    font-size: 33px;
+    margin: 20px;
+    
+}
+
+#clear, #backspace{
+    width: 105px;
+    background-image:linear-gradient(to right,rgb(126, 99, 120),rgb(196, 23, 219));
+    color: white;
+    border: none;
+    font-size: 33px;  
+    margin: 20px;
+    border-radius: 10%;
+}
+
+
+
+
+.all, .operator{
+    cursor: pointer;
+}
